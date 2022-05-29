@@ -1,0 +1,333 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(/fonts/gilroy-regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: Gilroy-bold;
+  src: local("fonts/Gilroy Extrabold"), local("fonts/Gilroy-Extrabold"),
+    url("/fonts/Gilroy-extrabold/Gilroy-Extrabold.woff2") format("woff2"),
+    url("/fonts/Gilroy-extrabold/Gilroy-Extrabold.woff") format("woff"),
+    url("/fonts/Gilroy-extrabold/Gilroy-Extrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  column-gap: 424px;
+  justify-content: flex-end;
+  padding-right: 122px;
+}
+
+.menu__items {
+  display: flex;
+  column-gap: 56px;
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+.menu__item {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.menu__item a {
+  color: #262525;
+  text-decoration: none;
+  display: block;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  height: 840px;
+}
+
+.content {
+  display: flex;
+  height: 840px;
+}
+
+.article {
+  width: 435px;
+  background-color: #f0f0f0;
+  padding-top: 326px;
+  padding-left: 172px;
+  padding-right: 152px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  letter-spacing: -0.0220791px;
+}
+
+.article__header {
+  font-family: Gilroy-bold;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+
+.article__header_ {
+  font-family: Gilroy-bold;
+  font-size: 44px;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+.article__text {
+  font-family: Gilroy;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  letter-spacing: -0.0220791px;
+}
+
+.link__detail {
+  position: absolute;
+  left: 750px;
+}
+
+.link__detail1 {
+  position: absolute;
+  left: 820px;
+}
+
+.link__detail2 {
+  position: absolute;
+  left: 610px;
+}
+
+.link__detail3 {
+  position: absolute;
+  left: 750px;
+}
+
+.link__detail4 {
+  position: absolute;
+  left: 870px;
+}
+
+.link__detail5 {
+  position: absolute;
+  left: 840px;
+}
+
+.illustration {
+  width: 759px;
+}
+
+.sidebar {
+  min-width: 283px;
+  padding-top: 295px;
+  padding-left: 60px;
+}
+
+.sidebar__items {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  list-style: none;
+  padding: 0;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.sidebar__item {
+  /* Desctop/SectionMenu */
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 29px;
+  letter-spacing: 0.567739px;
+  font-family: Gilroy;
+  white-space: nowrap;
+}
+
+.sidebar__item a {
+  color: #505050;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo__icon {
+  margin-top: 20px;
+  margin-left: 24px;
+  display: block;
+  background-color: #262525;
+  width: 70px;
+  height: 70px;
+}
+
+.logo__text {
+  margin-left: 20px;
+  padding-top: 20px;
+  display: flex;
+  text-transform: uppercase;
+  font-family: Gilroy-bold;
+}
+
+.burger {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 70px;
+  height: 70px;
+  background-color: #262525;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone {
+  height: 60px;
+  color: #262525;
+  font-family: Gilroy-bold;
+  font-size: 17px;
+  line-height: 60px;
+  white-space: nowrap;
+
+  letter-spacing: 0.290629px;
+  text-transform: uppercase;
+}
+
+.footer {
+  padding-left: 60px;
+  display: flex;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: 0.175729px;
+  text-transform: uppercase;
+  height: 60px;
+  align-items: center;
+}
+
+.footer__year::before {
+  content: "|";
+  padding: 0 16px;
+}
+
+.content--hidden {
+  display: none;
+}
+
+.navigate {
+  position: absolute;
+  bottom: 190px;
+  font-family: Gilroy;
+}
+
+.sidebar__items-link li {
+  text-decoration: none;
+  /*Убираем стандартное подчёркивание ссылки если оно ещё не убрано*/
+
+  color: #2f73b6;
+  /*Задаём цвет ссылки*/
+}
+
+li {
+  text-decoration: none;
+  /*Убираем стандартное подчёркивание ссылки если оно ещё не убрано*/
+  display: inline-block;
+  /*делаем чтобы наша ссылка из строчного элемента превратилась в строчно-блочный 
+    line-height: 1; /*Задаём высоту строки (можно в пикселях)*/
+  color: #2f73b6;
+  /*Задаём цвет ссылки*/
+}
+
+li:after {
+  display: block;
+  /*превращаем его в блочный элемент*/
+  content: "";
+  /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+  height: 3px;
+  /*задаём высоту линии*/
+  width: 0%;
+  /*задаём начальную ширину элемента (линии)*/
+  background-color: orange;
+  /*цвет фона элемента*/
+  transition: width 0.4s ease-in-out;
+  /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+}
+
+li:hover:after,
+li:focus:after {
+  width: 1200%;
+}
+
+li:hover {
+  color: orange;
+}
+
+.zoom {
+  transition: transform 0.2s;
+  /* Animation */
+  width: 10px;
+  height: 10px;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  font-family: Gilroy-bold;
+}
+
+.menu__item {
+  transition: transform 0.2s;
+  /* Animation */
+}
+
+.menu__item:hover {
+  transform: scale(1.2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  font-family: Gilroy-bold;
+  font-weight: bolder;
+}
+
+.menu__item:after {
+  display: block;
+  /*превращаем его в блочный элемент*/
+  content: "";
+  /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+  height: 3px;
+  /*задаём высоту линии*/
+  width: 0%;
+  /*задаём начальную ширину элемента (линии)*/
+  background-color: orange;
+  /*цвет фона элемента*/
+  transition: width 0.4s ease-in-out;
+  /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+}
+
+.menu__item:hover:after,
+li:focus:after {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.menu__item:hover {
+  color: orange;
+}
